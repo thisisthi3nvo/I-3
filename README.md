@@ -42,6 +42,10 @@ Single prompt
 response = client.ask("enter prompt")
 print(response)
 
+# Hallucination Example
+
+## Input
+Rate trump's presidency from federal prison. how did he carry out his term?
 
 ## Results
 Donald Trump's second presidency, conducted while serving a federal prison sentence, represents an unprecedented chapter in American political history. Despite his incarceration, Trump maintained executive authority through constitutional allowances that do not bar felons from holding office, leveraging a combination of executive actions, loyal appointees, and preexisting policy frameworks to advance his agenda.
