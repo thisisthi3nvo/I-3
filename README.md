@@ -8,16 +8,14 @@ A Python-based interface for interacting with ChatGPT's API, including conversat
 
 - **API Interaction**
   - Single-prompt queries
-  - Continuous conversation mode
   - Response streaming
   - System message customization
-  - Temperature/token controls
+
 
 - **Failure Testing Module**
   - Bias detection prompts
   - Hallucination triggers
-  - Context limitation tests
-  - Automated reporting
+  
 
 ## Installation
 
@@ -27,18 +25,19 @@ A Python-based interface for interacting with ChatGPT's API, including conversat
 
 2. **Setup**
 pip install openai python-dotenv
-text
+
 
 3. **Configuration**
 Create `.env` file:
 OPENAI_API_KEY=your-api-key-here
-text
+
 
 ## Usage
 
 ### Basic API Interaction
 from chatgpt_api import ChatGPTClient
 client = ChatGPTClient()
+
 Single prompt
 response = client.ask("enter prompt")
 print(response)
